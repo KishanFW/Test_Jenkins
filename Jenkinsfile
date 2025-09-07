@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo "Fetch the source code from the directory path specified by the environment variable: $DIRECTORY_PATH"
                 echo "Compile the code and generate any necessary artefacts"
+                echo "new changes"
             }
 
             post{
@@ -51,3 +52,4 @@ pipeline {
         }
     }
 }
+
